@@ -18,3 +18,9 @@ This project is about spring mvc configuration with all version
   > root-config.xml is used for ioc container
   
   > AppInitializer is sub class of ServletContainerInitializer is used for dispatcher servlet.(note : src/main/resources/ -> create file META-INF/services/ javax.servlet.ServletContainerInitializer or Used WebApplicationInitializer class for dispatcher servlet that is no need to create any file.
+  
+ ### Extensible class for Initializer
+    - ServletContainerInitializer 
+    - WebApplicationInitializer
+    - AbstractContextLoaderInitializer
+    - AbstractAnnotationConfigDispatcherServletInitializer (Java Config)
